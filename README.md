@@ -1,6 +1,6 @@
 # Exercícios de JavaScript
 
-Exercícios do professor Gustavo Guanabara para fixar e praticar JavaScript.
+Exercícios do professor [Gustavo Guanabara](https://github.com/gustavoguanabara) para praticar e fixar JavaScript.
 
 ## Sumário:
 
