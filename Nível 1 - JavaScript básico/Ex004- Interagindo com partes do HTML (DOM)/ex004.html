@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interação JS</title>
+
+    <style>
+        body { 
+            font: 12pt Arial; 
+        }
+        button { 
+            font-size: 12pt; 
+            padding: 30px; 
+        }
+        div#res {
+            padding-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Trabalhando com Dados v2.0</h1>
+        <div>
+        <button onclick="clicou()">Clique para começar!</button>
+    </div>
+    <div id="res">
+        Aqui vai aparecer o resultado...
+    </div>
+
+    <script>
+        function clicou() {
+            let name = prompt('Digite o seu nome:')
+            let res = document.querySelector('div#res')
+            
+            res.innerHTML = `Olá, <strong>${name}</strong>! É um prazer te conhecer\u{1F596}`
+        }
+
+    </script>
+</body>
+</html>

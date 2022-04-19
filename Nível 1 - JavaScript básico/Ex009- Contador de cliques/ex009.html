@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Cliques</title>
+
+    <style>
+        body {
+            background: #00b1d4;
+            font: 12pt Arial; 
+        }
+        button { 
+            font-size: 12pt; 
+            padding: 30px; 
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Contador de Cliques</h1>
+    <div>
+        <button onclick="contar()">Clique em mim</button>
+        <button onclick="zerar()">Zerar o Contador</button>
+    </div>
+    <div id="res">
+        <p>O contador está com <mark>0</mark> cliques.</p>
+    </div>
+
+    <script>
+            let contador = 0
+            let res = document.querySelector('div#res')
+
+            function contar() {
+                contador ++
+                res.innerHTML = `<p>O contador está com <mark>${contador}</mark> cliques.</p>`
+            }
+
+            function zerar() {
+                contador = 0
+                res.innerHTML = `<p>O contador foi zerado.</p>`
+            }
+    </script>
+</body>
+</html>
