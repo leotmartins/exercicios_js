@@ -40,3 +40,6 @@ Exercícios do professor [Gustavo Guanabara](https://github.com/gustavoguanabara
 - Ex026- Contagem mais "inteligente"
 - Ex027- Tabuada
 - Ex028- Fatorial de um número
+
+
+Os exercícios propostos estão disponiveis em: (https://gustavoguanabara.github.io/javascript/exercicios/)
