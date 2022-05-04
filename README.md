@@ -4,7 +4,7 @@ Exercícios do professor [Gustavo Guanabara](https://github.com/gustavoguanabara
 
 ## Sumário:
 
-### 📁 Nível 1 - JavaScript básico
+### [📁 Nível 1 - JavaScript básico](https://github.com/leotmartins/exercicios_js/tree/main/N%C3%ADvel%201%20-%20JavaScript%20b%C3%A1sico)
 
 - Ex001- Olá, Mundo!
 - Ex002- Interagindo com um botão
@@ -17,7 +17,7 @@ Exercícios do professor [Gustavo Guanabara](https://github.com/gustavoguanabara
 - Ex009- Contador de cliques
 - Ex010- Registro de cliques
 
-### 📁 Nível 2 - Condições em JavaScript
+### [📁 Nível 2 - Condições em JavaScript](https://github.com/leotmartins/exercicios_js/tree/main/N%C3%ADvel%202%20-%20Condi%C3%A7%C3%B5es%20em%20JavaScript)
 
 - Ex011- Calculando média e dando 'Parabéns'
 - Ex012- É par ou é ímpar?
